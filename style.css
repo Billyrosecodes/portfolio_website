@@ -43,3 +43,7 @@ body{
     border-bottom-left-radius: .6rem;
     transform-origin: right;
 }
+
+.cover.cover-right.turn{
+    transform: rotateY(180deg);
+}
