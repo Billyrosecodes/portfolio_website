@@ -256,11 +256,9 @@ body {
     font-size: 2.5rem;
     color: var(--main-color);
 }
-
 .services-content h3{
     font-size: 1.1rem;
 }
-
 .services-content p{
     margin: .2rem 0 .8rem;
 }
@@ -269,3 +267,26 @@ body {
     height: 2.5rem;
 }
 
+/* skills */
+.skills-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.skills-box .skills-content{
+    flex: 1 1 20rem;
+}
+.skills-content h3{
+    font-size: 1.3rem;
+    line-height: 1;
+    margin-bottom: .6rem;
+}
+
+.skills-content .content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills-content .content span{
+    display: inline-flex;
+}
